@@ -1,0 +1,1622 @@
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (max-width: 320px)  {
+    .logo {
+        position: absolute;
+        display: grid;
+        width: 55px;
+        height: 16px;
+        left: 19px;
+        top: 33px;
+        grid-gap: 5px;
+        grid-template-rows: repeat(1, 3fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    header>ul:nth-child(1) {
+        top: 0px;
+        position: absolute;
+        left: 33px;
+        list-style: none;
+    }
+
+    header>ul:nth-child(1)>li {
+        list-style: none;
+        font-size: 27px;
+        color: white;
+        padding: 10px;
+    }
+
+    .positions {
+        font-size: 19px;
+        color: white;
+        position: absolute;
+        top: 69px;
+        right: 33px;
+        list-style: none;
+    }
+
+    .one{
+        animation: slide 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+    }
+
+    @keyframes slide {
+        0%{
+            color: #FC2EC2;
+        }
+
+        100%{
+
+            transform: translateX(-50px);
+            color: white;
+        }
+    }
+
+    .two{
+        animation: slide2 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+    }
+
+    @keyframes slide2 {
+        0%{
+            color:  #0BECC3;
+        }
+
+        100%{
+            transform: translateX(-50px);
+            color: #ffffff;
+        }
+    }
+
+    .three{
+        animation: slide3 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+        display: block;
+    }
+
+    @keyframes slide3 {
+        0%{
+            color: #4253cb;
+        }
+
+        100%{
+            transform: translateX(27px);
+            color: white;
+        }
+    }
+
+    .four{
+        animation: slide4 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+    }
+
+    @keyframes slide4 {
+        0%{
+            color: #ff7700;
+        }
+
+        100%{
+            transform: translateX(27px);
+            color: white;
+        }
+    }
+
+    #article-01 {
+        color: white;
+        font-size: 22px;
+        position: relative;
+        left: 29px;
+        top: 3px;
+    }
+
+    .aboutme>section>div:nth-child(1) {
+        left: 15px;
+        width: 287px;
+        height: 179px;
+        box-shadow: 1px 2px 7px 4px #130f0f;
+        position: relative;
+        background-image: linear-gradient( #5c5c99, #1b2532);
+        border-radius: 20px;
+        top: 8px;
+    }
+
+    .aboutme>section>div>p {
+        left: 0px;
+        align-items: center;
+        font-size: 24px;
+        position: relative;
+        top: -7px;
+        text-align: center;
+    }
+
+    .aboutme>section>div>li {
+        list-style: none;
+        font-size: 16px;
+        left: 36px;
+        position: absolute;
+        top: 55px;
+    }
+
+    .aboutme>section>div:nth-child(2) {
+        position: absolute;
+        right: 53px;
+        width: 205px;
+        height: 199px;
+        background-image: url(../icon/PhofilePhoto.jpeg);
+        background-size: cover;
+        border-radius: 10px;
+        top: 353px;
+    }
+
+    #article-02 {
+        color: white;
+        font-size: 22px;
+        position: relative;
+        left: 45px;
+        top: 232px;
+    }
+
+    .myskills>section {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        top: 313px;
+    }
+
+    .social-media {
+        position: absolute;
+        right: 51px;
+        width: 207px;
+        height: 40px;
+        top: 567px;
+        display: grid;
+        grid-template-rows: repeat(1,4fr);
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 14px;
+    }
+
+    #article-02 {
+        color: white;
+        font-size: 22px;
+        position: relative;
+        left: 29px;
+        top: 301px;
+    }
+
+    .myskills>section>div:nth-child(1) {
+        background-size: cover;
+        left: 25px;
+        top: 286px;
+        background-image: linear-gradient( #5c5c99, #1b2532);
+        box-shadow: 1px 2px 7px 4px #171616;
+        border-radius: 20px;
+    }
+
+    .myskills>section>div {
+        position: absolute;
+        width: 161px;
+        height: 248px;
+    }
+
+    .myskills>section>div:nth-child(2) {
+        background-size: cover;
+        right: 22px;
+        background-image: linear-gradient(#5c5c99,#1b2532);
+        box-shadow: 1px 2px 7px 4px #171717;
+        border-radius: 20px;
+        color: white;
+        width: 270px;
+    }
+
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (max-width:1024px ){
+
+    header>ul:nth-child(1)>li {
+        list-style: none;
+        font-size: 33px;
+        color: white;
+        padding: 10px;
+    }
+    .logo {
+        position: absolute;
+        display: grid;
+        width: 71px;
+        height: 23px;
+        left: 28px;
+        top: 33px;
+        grid-gap: 5px;
+        grid-template-rows: repeat(1,3fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    header>ul:nth-child(2) {
+        top: 7px;
+        position: absolute;
+        right: 20px;
+        list-style: none;
+    }
+
+    header>ul:nth-child(2)>li {
+        display: inline-block;
+        font-size: 24px;
+        padding: 12px;
+        color: white;
+    }
+
+    .positions {
+        font-size: 46px;
+        color: white;
+        position: absolute;
+        top: 100px;
+        right: 70px;
+        list-style: none;
+    }
+
+    .aboutme>section>div:nth-child(1) {
+        left: 103px;
+        width: 529px;
+        height: 372px;
+        box-shadow: 1px 2px 7px 4px #130f0f;
+        position: relative;
+        background-image: linear-gradient( #5c5c99, #1b2532);
+        border-radius: 20px;
+        top: 80px;
+    }
+
+    .aboutme>section>div:nth-child(2) {
+        position: relative;
+        right: 56px;
+        width: 247px;
+        height: 275px;
+        background-image: url(../icon/PhofilePhoto.jpeg);
+        background-size: cover;
+        border-radius: 10px;
+        top: 80px;
+    }
+
+    .aboutme>section>div>li {
+        list-style: none;
+        font-size: 20px;
+        left: 86px;
+        position: relative;
+    }
+
+    .social-media {
+        position: absolute;
+        right: 49px;
+        width: 259px;
+        height: 55px;
+        top: 372px;
+        display: grid;
+        grid-template-rows: repeat(1,4fr);
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 14px;
+    }
+
+    .myskills>section>div {
+        position: relative;
+        width: 385px;
+        height: 450px;
+    }
+
+    .myskills>section>div:nth-child(1) {
+        background-size: cover;
+        left: 111px;
+        background-image: linear-gradient( #5c5c99, #1b2532);
+        box-shadow: 1px 2px 7px 4px #171616;
+        border-radius: 20px;
+    }
+
+    .myskills>section>div:nth-child(2) {
+        background-size: cover;
+        right: 82px;
+        background-image: linear-gradient(#5c5c99,#1b2532);
+        box-shadow: 1px 2px 7px 4px #171717;
+        border-radius: 20px;
+        color: white;
+    }
+
+    .myprojects>section {
+        position: relative;
+        width: 856px;
+        height: 416px;
+        display: grid;
+        grid-gap: 100px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(4,4fr);
+        left: 92px;
+        top: 255px;
+    }
+
+    .more {
+        position: absolute;
+        display: grid;
+        width: 124px;
+        height: 22px;
+        left: 371px;
+        top: 529px;
+        grid-gap: 31px;
+        grid-template-rows: repeat(1,3fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .myassignments>section>div:nth-child(1) {
+        left: 352px;
+    }
+
+    .myassignments>section>div {
+        position: relative;
+        width: 370px;
+        height: 94px;
+        background-color: black;
+        color: white;
+    }
+
+    .myassignments>section>div:nth-child(2) {
+        right: 84px;
+    }
+
+    .myassignments>section>div:nth-child(3) {
+        left: 352px;
+    }
+
+    .myassignments>section>div:nth-child(4) {
+        right: 84px;
+    }
+
+    .myassignments>section>div:nth-child(5) {
+        left: 352px;
+    }
+
+    .myassignments p {
+        font-size: 20px;
+        left: 120px;
+        top: 32px;
+        position: relative;
+    }
+
+    .more-2 {
+        position: absolute;
+        display: grid;
+        width: 124px;
+        height: 22px;
+        left: 252px;
+        top: 678px;
+        grid-gap: 31px;
+        grid-template-rows: repeat(1,3fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .img {
+        position: relative;
+        left: 101px;
+        width: 200px;
+        height: 200px;
+        top: 935px;
+        background-image: url(../icon/climbChild.png);
+        background-size: cover;
+    }
+
+    .my-education>section>div:nth-child(1) {
+        left: 543px;
+        top: 628px;
+        background-color: #FC2EC2;
+        animation: div1 5s linear;
+        animation-direction: reverse;
+    }
+
+    .my-education>section>div:nth-child(2) {
+        left: 443px;
+        top: 628px;
+        background-color: #0BECC3;
+        animation: div2 4s linear;
+        animation-direction: reverse;
+    }
+
+    .my-education>section>div:nth-child(3) {
+        left: 354px;
+        top: 628px;
+        background-color: #F964FF;
+        animation: div3 3s linear;
+        animation-direction: reverse;
+    }
+
+    .my-education>section>div:nth-child(4) {
+        left: 259px;
+        top: 628px;
+        background-color: #FFE293;
+        animation: div4 2s linear;
+        animation-direction: reverse;
+    }
+
+    .experience>section {
+        position: relative;
+        width: 860px;
+        height: 487px;
+        display: grid;
+        grid-gap: 155px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(3,2fr);
+        left: 91px;
+        top: 735px;
+    }
+
+    .second-pic {
+        width: 417px;
+        height: 321px;
+        background-size: cover;
+        background-image: url(../icon/isometric-computer.gif);
+        position: relative;
+        left: 100px;
+        top: 965px;
+        border-radius: 10px;
+    }
+
+    .contacts {
+        position: relative;
+        right: -672px;
+        width: 52px;
+        height: 247px;
+        bottom: -671px;
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(1,4fr);
+        grid-gap: 14px;
+    }
+
+    .contact>div {
+        position: relative;
+        width: 276px;
+        height: 40px;
+        right: -823px;
+        top: 503px;
+        background-color: white;
+        border-radius: 120px;
+    }
+
+    footer {
+        height: 70px;
+        background: #2a2a2a;
+        position: relative;
+        top: 732px;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (max-width:768px ) {
+    .logo {
+        position: absolute;
+        display: grid;
+        width: 61px;
+        height: 18px;
+        left: 257px;
+        top: 17px;
+        grid-gap: 5px;
+        grid-template-rows: repeat(1,3fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    header>ul:nth-child(2)>li {
+        display: inline-block;
+        font-size: 24px;
+        padding: 8px;
+        color: white;
+    }
+
+    header>ul:nth-child(2) {
+        top: 24px;
+        position: absolute;
+        right: 83px;
+        list-style: none;
+    }
+
+    header>ul:nth-child(1) {
+        top: -17px;
+        position: absolute;
+        left: 282px;
+        list-style: none;
+    }
+
+    l:nth-child(1)>li {
+        list-style: none;
+        font-size: 29px;
+        color: white;
+        padding: 10px;
+    }
+
+    .positions {
+        font-size: 29px;
+        color: white;
+        position: absolute;
+        top: 111px;
+        right: 94px;
+        list-style: none;
+    }
+
+    .aboutme>section>div:nth-child(1) {
+        left: 70px;
+        width: 354px;
+        height: 372px;
+        box-shadow: 1px 2px 7px 4px #130f0f;
+        position: relative;
+        background-image: linear-gradient( #5c5c99, #1b2532);
+        border-radius: 20px;
+        top: 80px;
+    }
+
+    .aboutme>section>div:nth-child(2) {
+        position: relative;
+        right: 50px;
+        width: 226px;
+        height: 255px;
+        background-image: url(../icon/PhofilePhoto.jpeg);
+        background-size: cover;
+        border-radius: 10px;
+        top: 80px;
+    }
+
+    .social-media {
+        position: absolute;
+        right: 51px;
+        width: 227px;
+        height: 46px;
+        top: 362px;
+        display: grid;
+        grid-template-rows: repeat(1,4fr);
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 14px;
+    }
+
+    .aboutme>section>div>p {
+        left: 36px;
+        align-items: center;
+        font-size: 28px;
+        position: relative;
+    }
+
+    .aboutme>section>div>li {
+        list-style: none;
+        font-size: 19px;
+        left: 59px;
+        position: relative;
+    }
+
+    .myskills>section>div {
+        position: relative;
+        width: 311px;
+        height: 421px;
+    }
+
+    .myskills>section>div:nth-child(1) {
+        background-size: cover;
+        left: 55px;
+        background-image: linear-gradient( #5c5c99, #1b2532);
+        box-shadow: 1px 2px 7px 4px #171616;
+        border-radius: 20px;
+    }
+
+    .myskills>section>div:nth-child(2) {
+        background-size: cover;
+        right: 43px;
+        background-image: linear-gradient(#5c5c99,#1b2532);
+        box-shadow: 1px 2px 7px 4px #171717;
+        border-radius: 20px;
+        color: white;
+    }
+
+    .skill-no1 {
+        font-size: 30px;
+        position: relative;
+        left: 52px;
+    }
+
+    .skills1-grid {
+        position: relative;
+        display: grid;
+        left: 29px;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: repeat(1,6fr);
+        width: 53px;
+        height: 352px;
+        grid-gap: 10px;
+    }
+
+    .skill-no2 {
+        font-size: 30px;
+        position: relative;
+        left: 86px;
+    }
+
+    .skills2-grid {
+        font-size: 18px;
+        position: relative;
+        left: 28px;
+        /* padding: 5px; */
+        top: 22px;
+    }
+
+    .myprojects>section {
+        position: relative;
+        width: 642px;
+        height: 374px;
+        display: grid;
+        grid-gap: 57px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(4,4fr);
+        left: 73px;
+        top: 255px;
+    }
+
+    .more {
+        position: absolute;
+        display: grid;
+        width: 124px;
+        height: 22px;
+        left: 264px;
+        top: 471px;
+        grid-gap: 31px;
+        grid-template-rows: repeat(1,3fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .myassignments>section {
+        position: relative;
+        width: 864px;
+        height: 600px;
+        left: 135px;
+        top: 520px;
+    }
+
+    .myassignments>section>div:nth-child(1) {
+        left: 292px;
+    }
+
+    .myassignments>section>div:nth-child(3) {
+        left: 292px;
+    }
+
+    .myassignments>section>div:nth-child(5) {
+        left: 292px;
+    }
+
+    .myassignments p {
+        font-size: 20px;
+        left: 86px;
+        top: 32px;
+        position: relative;
+    }
+
+    .myassignments>section>div {
+        position: relative;
+        width: 306px;
+        height: 94px;
+        background-color: black;
+        color: white;
+    }
+
+    .more-2 {
+        position: absolute;
+        display: grid;
+        width: 124px;
+        height: 22px;
+        left: 198px;
+        top: 678px;
+        grid-gap: 31px;
+        grid-template-rows: repeat(1, 3fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .img {
+        position: relative;
+        left: 40px;
+        width: 172px;
+        height: 191px;
+        top: 868px;
+        background-image: url(../icon/climbChild.png);
+        background-size: cover;
+    }
+
+    .my-education>section>div {
+        position: relative;
+        width: 335px;
+        height: 62px;
+        font-size: 21px;
+    }
+
+    .my-education>section>div:nth-child(1) {
+        left: 387px;
+        top: 628px;
+        background-color: #FC2EC2;
+        animation: div1 5s linear;
+        animation-direction: reverse;
+    }
+
+    .my-education>section>div:nth-child(2) {
+        left: 316px;
+        top: 628px;
+        background-color: #0BECC3;
+        animation: div2 4s linear;
+        animation-direction: reverse;
+    }
+
+    .my-education>section>div:nth-child(3) {
+        left: 243px;
+        top: 628px;
+        background-color: #F964FF;
+        animation: div3 3s linear;
+        animation-direction: reverse;
+    }
+
+    .my-education>section>div:nth-child(4) {
+        left: 175px;
+        top: 628px;
+        background-color: #FFE293;
+        animation: div4 2s linear;
+        animation-direction: reverse;
+    }
+
+    .experience>section {
+        position: relative;
+        width: 661px;
+        height: 395px;
+        display: grid;
+        grid-gap: 115px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(3,2fr);
+        left: 71px;
+        top: 735px;
+    }
+
+    .work-1 {
+        font-size: 20px;
+        color: white;
+        top: 135px;
+        position: relative;
+        text-align: center;
+    }
+
+    .second-pic {
+        width: 301px;
+        height: 249px;
+        background-size: cover;
+        background-image: url(../icon/isometric-computer.gif);
+        position: relative;
+        left: 88px;
+        top: 953px;
+        border-radius: 10px;
+    }
+
+    .contacts {
+        position: relative;
+        right: -464px;
+        width: 52px;
+        height: 247px;
+        bottom: -698px;
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(1,4fr);
+        grid-gap: 14px;
+    }
+
+    .contact>div {
+        position: relative;
+        width: 276px;
+        height: 40px;
+        right: -572px;
+        top: 535px;
+        background-color: white;
+        border-radius: 120px;
+    }
+
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (max-width:425px ) {
+    header > ul:nth-child(1) {
+        top: -14px;
+        position: absolute;
+        left: 112px;
+        list-style: none;
+    }
+
+    .logo {
+        position: absolute;
+        display: grid;
+        width: 61px;
+        height: 18px;
+        left: 93px;
+        top: 17px;
+        grid-gap: 5px;
+        grid-template-rows: repeat(1, 3fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    header>ul:nth-child(1)>li {
+        list-style: none;
+        font-size: 25px;
+        color: white;
+        padding: 10px;
+    }
+
+    header > ul:nth-child(2) > li {
+        display: inline-block;
+        font-size: 12px;
+        padding: 3px;
+        color: white;
+    }
+
+    header > ul:nth-child(2) {
+        top: 35px;
+        position: absolute;
+        right: 66px;
+        list-style: none;
+    }
+
+    .positions {
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 79px;
+        right: 77px;
+        list-style: none;
+    }
+
+    .one {
+        animation: slide 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+    }
+
+    @keyframes slide {
+        0% {
+            color: #FC2EC2;
+        }
+
+        100% {
+
+            transform: translateY(-11px);
+            color: white;
+        }
+    }
+
+    .two {
+        animation: slide2 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+    }
+
+    @keyframes slide2 {
+        0% {
+            color: #0BECC3;
+        }
+
+        100% {
+            transform: translateX(-100px);
+            color: #ffffff;
+        }
+    }
+
+    .three {
+        animation: slide3 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+        display: block;
+    }
+
+    @keyframes slide3 {
+        0% {
+            color: #4253cb;
+        }
+
+        100% {
+            transform: translateX(100px);
+            color: white;
+        }
+    }
+
+    .four {
+        animation: slide4 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+    }
+
+    @keyframes slide4 {
+        0% {
+            color: #ff7700;
+        }
+
+        100% {
+            transform: translateY(11px);
+            color: white;
+        }
+    }
+
+    #article-01 {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left: 36px;
+        top: 21px;
+    }
+
+    .aboutme > section > div:nth-child(1) {
+        left: 44px;
+        width: 341px;
+        height: 232px;
+        box-shadow: 1px 2px 7px 4px #130f0f;
+        position: absolute;
+        background-image: linear-gradient(#5c5c99, #1b2532);
+        border-radius: 20px;
+        top: 30px;
+    }
+
+    .aboutme > section > div > p {
+        left: 36px;
+        align-items: center;
+        font-size: 27px;
+        position: relative;
+        top: -10px;
+    }
+
+    .aboutme > section > div > li {
+        list-style: none;
+        font-size: 14px;
+        left: 28px;
+        position: relative;
+        top: -10px;
+    }
+
+    .aboutme > section > div:nth-child(2) {
+        position: relative;
+        right: -107px;
+        width: 203px;
+        height: 222px;
+        background-image: url(../icon/PhofilePhoto.jpeg);
+        background-size: cover;
+        border-radius: 10px;
+        top: 295px;
+    }
+
+    .social-media {
+        position: absolute;
+        right: 96px;
+        width: 227px;
+        height: 46px;
+        top: 532px;
+        display: grid;
+        grid-template-rows: repeat(1, 4fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 14px;
+    }
+
+    #article-02 {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left: 31px;
+        top: 364px;
+    }
+
+    .skills1-grid {
+        position: relative;
+        display: grid;
+        left: 29px;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 6fr);
+        width: 42px;
+        height: 309px;
+        grid-gap: 10px;
+    }
+
+    .myskills > section {
+        position: relative;
+        display: grid;
+        justify-content: space-between;
+        top: 392px;
+    }
+
+    .myskills > section > div {
+        position: relative;
+        width: 318px;
+        height: 421px;
+    }
+
+    .myskills > section > div:nth-child(2) {
+        background-size: cover;
+        right: -55px;
+        background-image: linear-gradient(#5c5c99, #1b2532);
+        box-shadow: 1px 2px 7px 4px #171717;
+        border-radius: 20px;
+        color: white;
+        top: 50px;
+    }
+
+    #article-03 {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left: 31px;
+        top: 469px;
+    }
+
+    .myprojects > section {
+        position: relative;
+        width: 311px;
+        height: 389px;
+        display: grid;
+        grid-gap: 47px;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        left: 57px;
+        top: 500px;
+    }
+
+    .myprojects > section > div > p {
+        position: relative;
+        font-size: 18px;
+        top: 0px;
+        text-align: center;
+        color: white;
+    }
+
+    .more {
+        position: absolute;
+        display: grid;
+        width: 124px;
+        height: 22px;
+        left: 96px;
+        top: 553px;
+        grid-gap: 31px;
+        grid-template-rows: repeat(1, 3fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #article-04 {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left: 31px;
+        top: 736px;
+    }
+
+    .myassignments > section {
+        position: relative;
+        width: 864px;
+        height: 600px;
+        left: 135px;
+        top: 752px;
+    }
+
+    .myassignments > section > div {
+        position: relative;
+        width: 159px;
+        height: 52px;
+        background-color: black;
+        color: white;
+    }
+
+    .myassignments > section > div:nth-child(1) {
+        left: 88px;
+    }
+
+    .myassignments > section > div:nth-child(3) {
+        left: 88px;
+    }
+
+    .myassignments > section > div:nth-child(5) {
+        left: 88px;
+    }
+
+    .myassignments > section > div:nth-child(2) {
+        right: 100px;
+    }
+
+    .myassignments > section > div:nth-child(4) {
+        right: 100px;
+    }
+
+    .myassignments p {
+        font-size: 14px;
+        left: 33px;
+        top: 17px;
+        position: relative;
+    }
+
+    .more-2 {
+        position: absolute;
+        display: grid;
+        width: 124px;
+        height: 22px;
+        left: 21px;
+        top: 376px;
+        grid-gap: 31px;
+        grid-template-rows: repeat(1, 3fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .img {
+        position: relative;
+        left: -7px;
+        width: 150px;
+        height: 178px;
+        top: 759px;
+        background-image: url(../icon/climbChild.png);
+        background-size: cover;
+    }
+
+    .my-education > section > div > b {
+        position: relative;
+        top: 12px;
+        left: 31px;
+        font-size: 15px;
+    }
+
+    #article-05 {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left: 32px;
+        top: 612px;
+    }
+
+    .my-education > section > div {
+        position: relative;
+        width: 169px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .my-education > section > div:nth-child(1) {
+        left: 238px;
+        top: 580px;
+        background-color: #FC2EC2;
+        animation: div1 5s linear;
+        animation-direction: reverse;
+    }
+
+    .my-education > section > div:nth-child(2) {
+        left: 190px;
+        top: 580px;
+        background-color: #0BECC3;
+        animation: div2 4s linear;
+        animation-direction: reverse;
+    }
+
+    .my-education > section > div:nth-child(3) {
+        left: 148px;
+        top: 580px;
+        background-color: #F964FF;
+        animation: div3 3s linear;
+        animation-direction: reverse;
+    }
+
+    .my-education > section > div:nth-child(4) {
+        left: 109px;
+        top: 580px;
+        background-color: #FFE293;
+        animation: div4 2s linear;
+        animation-direction: reverse;
+    }
+
+    #article-06 {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left: 31px;
+        top: 638px;
+    }
+
+    .work-1 {
+        font-size: 20px;
+        color: white;
+        top: 95px;
+        position: relative;
+        text-align: center;
+    }
+
+    .experience>section {
+        position: relative;
+        width: 343px;
+        height: 541px;
+        display: grid;
+        grid-gap: 118px;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,2fr);
+        left: 45px;
+        top: 681px;
+    }
+
+    .experience>section>div {
+        background-size: cover;
+        border-radius: 20px;
+        height: 106px;
+    }
+
+    #article-07 {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left: 31px;
+        top: 831px;
+    }
+
+    .second-pic {
+        width: 317px;
+        height: 238px;
+        background-size: cover;
+        background-image: url(../icon/isometric-computer.gif);
+        position: relative;
+        left: 61px;
+        top: 856px;
+        border-radius: 10px;
+    }
+
+    .contacts {
+        position: relative;
+        right: -129px;
+        width: 52px;
+        height: 247px;
+        bottom: -909px;
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(1,4fr);
+        grid-gap: 14px;
+    }
+
+    .contact>div {
+        position: relative;
+        width: 276px;
+        height: 40px;
+        right: -230px;
+        top: 751px;
+        background-color: white;
+        border-radius: 120px;
+    }
+
+    footer {
+        height: 70px;
+        background: #2a2a2a;
+        position: relative;
+        top: 916px;
+    }
+
+
+
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (max-width:375px ) {
+    .logo {
+        position: absolute;
+        display: grid;
+        width: 61px;
+        height: 18px;
+        left: 80px;
+        top: 17px;
+        grid-gap: 5px;
+        grid-template-rows: repeat(1, 3fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    header > ul:nth-child(1) {
+        top: -14px;
+        position: absolute;
+        left: 96px;
+        list-style: none;
+    }
+
+    header > ul:nth-child(2) > li {
+        display: inline-block;
+        font-size: 11px;
+        padding: 2px;
+        color: white;
+    }
+
+    header > ul:nth-child(2) {
+        top: 35px;
+        position: absolute;
+        right: 59px;
+        list-style: none;
+    }
+
+    .positions {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 73px;
+        right: 44px;
+        list-style: none;
+    }
+
+    .one {
+        animation: slide 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+    }
+
+    @keyframes slide {
+        0% {
+            color: #FC2EC2;
+        }
+
+        100% {
+
+            transform: translateX(-100px);
+            color: white;
+        }
+    }
+
+    .two {
+        animation: slide2 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+    }
+
+    @keyframes slide2 {
+        0% {
+            color: #0BECC3;
+        }
+
+        100% {
+            transform: translateX(-100px);
+            color: #ffffff;
+        }
+    }
+
+    .three {
+        animation: slide3 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+        display: block;
+    }
+
+    @keyframes slide3 {
+        0% {
+            color: #4253cb;
+        }
+
+        100% {
+            transform: translateX(100px);
+            color: white;
+        }
+    }
+
+    .four {
+        animation: slide4 3s ease infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        background-repeat: repeat-x;
+    }
+
+    @keyframes slide4 {
+        0% {
+            color: #ff7700;
+        }
+
+        100% {
+            transform: translateX(44px);
+            color: white;
+        }
+    }
+
+    #article-01 {
+        color: white;
+        font-size: 26px;
+        position: relative;
+        left: 24px;
+        top: 21px;
+    }
+
+    .aboutme > section > div:nth-child(1) {
+        left: 35px;
+        width: 314px;
+        height: 232px;
+        box-shadow: 1px 2px 7px 4px #130f0f;
+        position: absolute;
+        background-image: linear-gradient(#5c5c99, #1b2532);
+        border-radius: 20px;
+        top: 30px;
+    }
+
+    .aboutme > section > div > p {
+        left: 22px;
+        align-items: center;
+        font-size: 27px;
+        position: relative;
+        top: -10px;
+    }
+
+    .aboutme > section > div > li {
+        list-style: none;
+        font-size: 13px;
+        left: 30px;
+        position: relative;
+        top: -10px;
+    }
+
+    .aboutme > section > div:nth-child(2) {
+        position: relative;
+        right: -94px;
+        width: 203px;
+        height: 222px;
+        background-image: url(../icon/PhofilePhoto.jpeg);
+        background-size: cover;
+        border-radius: 10px;
+        top: 295px;
+    }
+
+    .social-media {
+        position: absolute;
+        right: 64px;
+        width: 227px;
+        height: 46px;
+        top: 532px;
+        display: grid;
+        grid-template-rows: repeat(1, 4fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 14px;
+    }
+
+    .myskills>section>div:nth-child(1) {
+        background-size: cover;
+        left: 31px;
+        background-image: linear-gradient( #5c5c99, #1b2532);
+        box-shadow: 1px 2px 7px 4px #171616;
+        border-radius: 20px;
+    }
+
+    .myskills > section > div:nth-child(2) {
+        background-size: cover;
+        right: -31px;
+        background-image: linear-gradient(#5c5c99, #1b2532);
+        box-shadow: 1px 2px 7px 4px #171717;
+        border-radius: 20px;
+        color: white;
+        top: 50px;
+    }
+
+    .myprojects > section {
+        position: relative;
+        width: 311px;
+        height: 389px;
+        display: grid;
+        grid-gap: 47px;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        left: 36px;
+        top: 500px;
+    }
+
+    .myassignments > section > div {
+        position: relative;
+        width: 152px;
+        height: 52px;
+        background-color: black;
+        color: white;
+    }
+
+    .myassignments > section {
+        position: relative;
+        width: 864px;
+        height: 600px;
+        left: 117px;
+        top: 752px;
+    }
+
+    .my-education > section > div {
+        position: relative;
+        width: 129px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .my-education > section > div > b {
+        position: relative;
+        top: 12px;
+        left: 21px;
+        font-size: 12px;
+    }
+
+    .experience>section {
+        position: relative;
+        width: 321px;
+        height: 541px;
+        display: grid;
+        grid-gap: 100px;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,2fr);
+        left: 33px;
+        top: 681px;
+    }
+
+    .work-1 {
+        font-size: 17px;
+        color: white;
+        top: 100px;
+        position: relative;
+        text-align: center;
+    }
+
+    #article-07 {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left: 31px;
+        top: 769px;
+    }
+
+    .second-pic {
+        width: 287px;
+        height: 231px;
+        background-size: cover;
+        background-image: url(../icon/isometric-computer.gif);
+        position: relative;
+        left: 46px;
+        top: 787px;
+        border-radius: 10px;
+    }
+
+    .contacts {
+        position: relative;
+        right: -129px;
+        width: 52px;
+        height: 247px;
+        bottom: -876px;
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(1,4fr);
+        grid-gap: 14px;
+    }
+
+    .contact>div>p {
+        font-size: 14px;
+        position: relative;
+        left: 20px;
+        top: 11px;
+    }
+
+    .contact>div {
+        position: relative;
+        width: 276px;
+        height: 40px;
+        right: -230px;
+        top: 717px;
+        background-color: white;
+        border-radius: 120px;
+    }
+
+    footer>h3 {
+        color: white;
+        font-size: 11px;
+        margin: 0px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+
+}
